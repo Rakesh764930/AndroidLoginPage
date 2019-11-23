@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         txtColor=findViewById(R.id.txtColor);
         btnLogin.setOnClickListener(this);
 
-        swRememberMe.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        swRememberMe.setOnCheckedChangeListener(new  CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean b) {
                 if(b){
